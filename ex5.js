@@ -12,9 +12,8 @@
  */
 
  let futureYear = 2050;
- let birthYear = fecha.getFullYear();
-
- let message = "en el año" + "futureYear + yo voy a tener" + futureYear-birthYear ;
+ let birthYear = 2022;
+ let message = "en el año " + futureYear + " yo voy a tener" + futureYear-birthYear ;
 
  console.log(message);
  

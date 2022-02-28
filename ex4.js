@@ -21,10 +21,10 @@
  */
 
 let numeroGatos = 10;
-let pareja = a;
-let pais = b;
-let trabajo = c;
+let pareja = "a";
+let pais = "b";
+let trabajo = "c";
 
-let futuro = "tendréis " + numeroGatos + " gatos" + "tu projima pareja sera" +
-pareja + "viviras en " + pais + "y tu trabjo sera" + trabajo;
+let futuro = "tendréis " + numeroGatos + " gatos " + " tu projima pareja sera " +
+pareja + " viviras en " + pais + " y tu trabjo sera " + trabajo;
 console.log(futuro);
