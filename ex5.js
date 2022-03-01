@@ -12,9 +12,9 @@
  */
 
  let futureYear = 2050;
- let birthYear = 2022;
- let message = "en el año " + futureYear + " yo voy a tener" + futureYear-birthYear ;
+ let birthYear = 1982;
+ let message = futureYear-birthYear ;
 
- console.log(message);
+ console.log("en el año " + futureYear + " yo voy a tener " + --message + " o " + message);
  
 

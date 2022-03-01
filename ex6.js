@@ -22,7 +22,7 @@ let radio = 3;
 let numeroPi = Math.PI
 console.log("Valor de PI:", numeroPi);
 let resultado = numeroPi*(radio*radio);
-console-log("el area de un ciruculo es de " + resultado );
+console.log("el area de un ciruculo es de " + resultado );
 
 
 /**
@@ -32,5 +32,5 @@ console-log("el area de un ciruculo es de " + resultado );
  *  es de 28.27 m2"
  */
 
- let resultadoR = Math.round(resultado)
- console-log("El area de un círculo de radio 3 es de " + resultadoR + "m2");
+ let resultadoR =resultado.toFixed(2);
+ console.log("El area de un círculo de radio 3 es de " + resultadoR + "m2");
